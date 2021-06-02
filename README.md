@@ -1,8 +1,3 @@
-# Simple-web-image-editor
-A simple image editor web app build with jquery and HTML5 Canvas
-
-[Live demo here](https://craciuncezar.github.io/Simple-web-image-editor/)
-
 ## ABOUT
 
 Star editing by drag and drop an image from your computer. Draw on the image, crop, resize it and save the edited image to your computer.
