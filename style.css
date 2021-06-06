@@ -100,3 +100,45 @@ input[type="number"]::-webkit-outer-spin-button {
   background-color: black;
   color: white;
 }
+
+.navbar ul {
+  margin: 10;
+  padding: 10;
+  display: flex;
+  list-style: none;
+  align-items: center;
+  width:100px;
+}
+
+.navbar > ul > li {
+  white-space: nowrap;
+  padding: 10px 0 10px 2px;
+  width: 80px;
+}
+
+.navbar a, .navbar a:focus {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 4px;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.7);
+  white-space: nowrap;
+  transition: 0.3s;
+  text-transform: uppercase;
+  position: relative;
+}
+.navbar li {
+  position: relative;
+    width:100px;
+}
+.navbar a:hover:before, .navbar li:hover > a:before, .navbar .active:before {
+  visibility: visible;
+  width: 100%;
+}
+
+.navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
+  color: #fff;
+}
